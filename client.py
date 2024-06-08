@@ -11,5 +11,5 @@ with open(file_path, 'rb') as file:
     data = file.read()
     client_socket.sendall(data)
 
-print("Đã gửi tệp văn bản thành công!")
+print("Send success!")
 client_socket.close()
